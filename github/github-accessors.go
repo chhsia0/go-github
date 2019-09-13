@@ -8613,7 +8613,7 @@ func (p *PushEvent) GetRef() string {
 }
 
 // GetRepo returns the Repo field.
-func (p *PushEvent) GetRepo() *PushEventRepository {
+func (p *PushEvent) GetRepo() *Repository {
 	if p == nil {
 		return nil
 	}
